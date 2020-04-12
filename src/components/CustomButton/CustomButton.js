@@ -1,9 +1,15 @@
 import React from "react";
+import { Button } from "antd";
+import "antd/dist/antd.css";
 import "./CustomButton.css";
 import "./CustomButton.less";
 
 const CustomButton = (props) => {
-  return <button className="css-class less-class">Button</button>;
+  return (
+    <Button className="css-class less-class" type="primary">
+      Button
+    </Button>
+  );
 };
 
 export default CustomButton;
