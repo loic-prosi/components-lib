@@ -6,9 +6,11 @@ import "./CustomButton.less";
 
 const CustomButton = (props) => {
   return (
-    <Button className="css-class less-class" type="primary">
-      Button
-    </Button>
+    <>
+      <Button className="css-class less-class" type="primary">
+        CustomButton
+      </Button>
+    </>
   );
 };
 
